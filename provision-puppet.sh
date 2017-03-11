@@ -1,0 +1,14 @@
+apt-get update;
+apt -y install puppet-common;
+puppet module install ajcrowe-supervisord --version 0.6.1;
+puppet module install arioch-redis --version 1.2.4;
+puppet module install elastic-elasticsearch --version 5.0.0;
+puppet module install puppet-nginx --version 0.6.0;
+puppet module install puppet-nodejs --version 2.3.0;
+puppet module install puppetlabs-apt --version 2.3.0;
+puppet module install puppetlabs-concat --version 2.2.0;
+puppet module install puppetlabs-postgresql --version 4.8.0;
+puppet module install puppetlabs-rabbitmq --version 5.6.0;
+puppet module install puppetlabs-stdlib --version 4.15.0;
+puppet module install saz-sudo --version 4.1.0;
+puppet module install stankevich-python --version 1.18.2;
