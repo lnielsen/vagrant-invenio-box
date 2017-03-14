@@ -16,6 +16,3 @@ invenio db create
 # Create indexes
 invenio index init
 invenio index queue init
-
-# Load demo data
-invenio demo init

@@ -47,7 +47,7 @@ located in ``/opt/invenio``. You can activate the virtualenv with:
 $ source /opt/invenio/bin/activate
 ```
 
-### ILS
+### ILS Demo
 
 The Invenio ILS box comes with all of base plus Invenio ILS installed + demo
 data. To start Invenio, log into the box and start a development server like
@@ -56,12 +56,18 @@ this:
 ```console
 $ ssh invenio@192.168.33.3
 $ source /opt/invenio/bin/activate
-(ils)$ invenio run -h 0.0.0.0
+(invenio)$ invenio run -h 0.0.0.0
 ```
 
 You can now browse Invenio ILS on:
 
 - [http://192.168.33.3:5000](http://192.168.33.3:5000)
+
+To load some demo data run:
+
+```console
+(invenio)$ invenio demo init
+```
 
 ## Export as VirtualBox VM
 
